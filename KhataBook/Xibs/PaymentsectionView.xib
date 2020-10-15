@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PaymentHeaderVIew" customModule="KhataBook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Customer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wad-oH-6gI">
+                    <rect key="frame" x="20" y="15" width="98" height="17"/>
+                    <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hE6-AF-MUU">
+                    <rect key="frame" x="356" y="10" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="FV3-yB-qGP"/>
+                        <constraint firstAttribute="width" constant="36" id="pl9-cn-1H8"/>
+                    </constraints>
+                    <state key="normal" image="Filter"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hE6-AF-MUU" secondAttribute="trailing" constant="20" id="416-Ex-bSC"/>
+                <constraint firstItem="Wad-oH-6gI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="cd1-Vu-imO"/>
+                <constraint firstItem="Wad-oH-6gI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="cn3-6P-mOW"/>
+                <constraint firstItem="hE6-AF-MUU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="wli-ma-vKC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="filter" destination="hE6-AF-MUU" id="CFx-kK-LQT"/>
+                <outlet property="numberofCustomer" destination="Wad-oH-6gI" id="R16-hY-mve"/>
+            </connections>
+            <point key="canvasLocation" x="159.42028985507247" y="-436.94196428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Filter" width="32" height="32"/>
+    </resources>
+</document>

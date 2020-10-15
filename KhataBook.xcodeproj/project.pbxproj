@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D07501E245AA4210065B52F /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D07501D245AA4210065B52F /* TransactionViewController.swift */; };
+		7D13EDD8245D476E0043629C /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D13EDD7245D476E0043629C /* MyCustomView.swift */; };
+		7D13EDDA245D4A2B0043629C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D13EDD9245D4A2B0043629C /* HomeViewController.swift */; };
+		7D156E91245E7DBF0002B5EE /* EditBusinessAndYourNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D156E90245E7DBF0002B5EE /* EditBusinessAndYourNameViewController.swift */; };
+		7D23E3112450194000E78535 /* AddnewfriendprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23E3102450194000E78535 /* AddnewfriendprofileViewController.swift */; };
+		7D23E313245059A100E78535 /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23E312245059A100E78535 /* ReportTableViewCell.swift */; };
+		7D65B1412456E76D0013E738 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65B1402456E76D0013E738 /* CoreDataManager.swift */; };
+		7D65B1442456F56C0013E738 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65B1432456F56C0013E738 /* AlertController.swift */; };
+		7D9C10D4245DA7BD001A22A9 /* UserDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C10D3245DA7BD001A22A9 /* UserDefault.plist */; };
+		7DAC603E244ECCD400F580E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC603D244ECCD400F580E7 /* AppDelegate.swift */; };
+		7DAC6040244ECCD400F580E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC603F244ECCD400F580E7 /* SceneDelegate.swift */; };
+		7DAC6042244ECCD400F580E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC6041244ECCD400F580E7 /* ViewController.swift */; };
+		7DAC6045244ECCD400F580E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC6043244ECCD400F580E7 /* Main.storyboard */; };
+		7DAC6048244ECCD400F580E7 /* KhataBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC6046244ECCD400F580E7 /* KhataBook.xcdatamodeld */; };
+		7DAC604A244ECCD600F580E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC6049244ECCD600F580E7 /* Assets.xcassets */; };
+		7DAC604D244ECCD600F580E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC604B244ECCD600F580E7 /* LaunchScreen.storyboard */; };
+		7DAC6055244F05B900F580E7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC6054244F05B900F580E7 /* ProfileViewController.swift */; };
+		7DAC6057244F05D000F580E7 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC6056244F05D000F580E7 /* PaymentViewController.swift */; };
+		7DAC605D244F077E00F580E7 /* PaymentHeaderVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC605C244F077E00F580E7 /* PaymentHeaderVIew.swift */; };
+		7DAC605F244F079A00F580E7 /* PaymentsectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC605E244F079A00F580E7 /* PaymentsectionView.xib */; };
+		7DAC6061244F10C900F580E7 /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC6060244F10C900F580E7 /* CustomerTableViewCell.swift */; };
+		7DB3062F24530C53002B4D40 /* Balancedetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3062E24530C53002B4D40 /* Balancedetails.xib */; };
+		7DB3063224530CD6002B4D40 /* balancedetailsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3063124530CD6002B4D40 /* balancedetailsview.swift */; };
+		7DB3063424531A95002B4D40 /* PaymentDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3063324531A95002B4D40 /* PaymentDetailsTableViewCell.swift */; };
+		7DB30636245548A3002B4D40 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB30635245548A3002B4D40 /* PaymentTableViewCell.swift */; };
+		7DB306382455CCBB002B4D40 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB306372455CCBB002B4D40 /* ProfileTableViewCell.swift */; };
+		7DB891CF2450119B0054A710 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB891CE2450119B0054A710 /* ReportViewController.swift */; };
+		7DD8396C2452C1D100377C07 /* CountryCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DD8396B2452C1D100377C07 /* CountryCode.plist */; };
+		7DD8396E2452FF4000377C07 /* PaymentdetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD8396D2452FF4000377C07 /* PaymentdetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D07501D245AA4210065B52F /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		7D13EDD7245D476E0043629C /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
+		7D13EDD9245D4A2B0043629C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7D156E90245E7DBF0002B5EE /* EditBusinessAndYourNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBusinessAndYourNameViewController.swift; sourceTree = "<group>"; };
+		7D23E3102450194000E78535 /* AddnewfriendprofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddnewfriendprofileViewController.swift; sourceTree = "<group>"; };
+		7D23E312245059A100E78535 /* ReportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
+		7D65B1402456E76D0013E738 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		7D65B1432456F56C0013E738 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		7D9C10D3245DA7BD001A22A9 /* UserDefault.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserDefault.plist; sourceTree = "<group>"; };
+		7DAC603A244ECCD400F580E7 /* KhataBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhataBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAC603D244ECCD400F580E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DAC603F244ECCD400F580E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7DAC6041244ECCD400F580E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DAC6044244ECCD400F580E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DAC6047244ECCD400F580E7 /* KhataBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KhataBook.xcdatamodel; sourceTree = "<group>"; };
+		7DAC6049244ECCD600F580E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DAC604C244ECCD600F580E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DAC604E244ECCD600F580E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DAC6054244F05B900F580E7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7DAC6056244F05D000F580E7 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		7DAC605C244F077E00F580E7 /* PaymentHeaderVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHeaderVIew.swift; sourceTree = "<group>"; };
+		7DAC605E244F079A00F580E7 /* PaymentsectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentsectionView.xib; sourceTree = "<group>"; };
+		7DAC6060244F10C900F580E7 /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
+		7DB3062E24530C53002B4D40 /* Balancedetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Balancedetails.xib; sourceTree = "<group>"; };
+		7DB3063124530CD6002B4D40 /* balancedetailsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balancedetailsview.swift; sourceTree = "<group>"; };
+		7DB3063324531A95002B4D40 /* PaymentDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		7DB30635245548A3002B4D40 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		7DB306372455CCBB002B4D40 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		7DB891CE2450119B0054A710 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		7DD8396B2452C1D100377C07 /* CountryCode.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CountryCode.plist; sourceTree = "<group>"; };
+		7DD8396D2452FF4000377C07 /* PaymentdetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentdetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DAC6037244ECCD400F580E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D156E8F245E7CA00002B5EE /* ProfileVCSubVC */ = {
+			isa = PBXGroup;
+			children = (
+				7D156E90245E7DBF0002B5EE /* EditBusinessAndYourNameViewController.swift */,
+			);
+			path = ProfileVCSubVC;
+			sourceTree = "<group>";
+		};
+		7D65B13D2456E72C0013E738 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7D65B1402456E76D0013E738 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7D65B1422456F5530013E738 /* AlertMsg */ = {
+			isa = PBXGroup;
+			children = (
+				7D65B1432456F56C0013E738 /* AlertController.swift */,
+			);
+			path = AlertMsg;
+			sourceTree = "<group>";
+		};
+		7D9C10D2245DA79F001A22A9 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				7DD8396B2452C1D100377C07 /* CountryCode.plist */,
+				7D9C10D3245DA7BD001A22A9 /* UserDefault.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		7DAC6031244ECCD400F580E7 = {
+			isa = PBXGroup;
+			children = (
+				7DAC603C244ECCD400F580E7 /* KhataBook */,
+				7DAC603B244ECCD400F580E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DAC603B244ECCD400F580E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC603A244ECCD400F580E7 /* KhataBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DAC603C244ECCD400F580E7 /* KhataBook */ = {
+			isa = PBXGroup;
+			children = (
+				7D156E8F245E7CA00002B5EE /* ProfileVCSubVC */,
+				7D9C10D2245DA79F001A22A9 /* Plist */,
+				7D65B1422456F5530013E738 /* AlertMsg */,
+				7D65B13D2456E72C0013E738 /* CoreData */,
+				7DB3063024530C93002B4D40 /* xibViewcontroller */,
+				7DB3062D24530B19002B4D40 /* Xibs */,
+				7DB891D1245018290054A710 /* TbleviewCell */,
+				7DB891D0245018070054A710 /* VC */,
+				7DAC603D244ECCD400F580E7 /* AppDelegate.swift */,
+				7DAC603F244ECCD400F580E7 /* SceneDelegate.swift */,
+				7DAC6043244ECCD400F580E7 /* Main.storyboard */,
+				7DAC6049244ECCD600F580E7 /* Assets.xcassets */,
+				7DAC604B244ECCD600F580E7 /* LaunchScreen.storyboard */,
+				7DAC604E244ECCD600F580E7 /* Info.plist */,
+				7DAC6046244ECCD400F580E7 /* KhataBook.xcdatamodeld */,
+				7D13EDD7245D476E0043629C /* MyCustomView.swift */,
+			);
+			path = KhataBook;
+			sourceTree = "<group>";
+		};
+		7DB3062D24530B19002B4D40 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC605E244F079A00F580E7 /* PaymentsectionView.xib */,
+				7DB3062E24530C53002B4D40 /* Balancedetails.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		7DB3063024530C93002B4D40 /* xibViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC605C244F077E00F580E7 /* PaymentHeaderVIew.swift */,
+				7DB3063124530CD6002B4D40 /* balancedetailsview.swift */,
+			);
+			path = xibViewcontroller;
+			sourceTree = "<group>";
+		};
+		7DB891D0245018070054A710 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7D13EDD9245D4A2B0043629C /* HomeViewController.swift */,
+				7DAC6041244ECCD400F580E7 /* ViewController.swift */,
+				7DB891CE2450119B0054A710 /* ReportViewController.swift */,
+				7DAC6054244F05B900F580E7 /* ProfileViewController.swift */,
+				7DAC6056244F05D000F580E7 /* PaymentViewController.swift */,
+				7D23E3102450194000E78535 /* AddnewfriendprofileViewController.swift */,
+				7DD8396D2452FF4000377C07 /* PaymentdetailViewController.swift */,
+				7D07501D245AA4210065B52F /* TransactionViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7DB891D1245018290054A710 /* TbleviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC6060244F10C900F580E7 /* CustomerTableViewCell.swift */,
+				7D23E312245059A100E78535 /* ReportTableViewCell.swift */,
+				7DB3063324531A95002B4D40 /* PaymentDetailsTableViewCell.swift */,
+				7DB30635245548A3002B4D40 /* PaymentTableViewCell.swift */,
+				7DB306372455CCBB002B4D40 /* ProfileTableViewCell.swift */,
+			);
+			path = TbleviewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DAC6039244ECCD400F580E7 /* KhataBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DAC6051244ECCD600F580E7 /* Build configuration list for PBXNativeTarget "KhataBook" */;
+			buildPhases = (
+				7DAC6036244ECCD400F580E7 /* Sources */,
+				7DAC6037244ECCD400F580E7 /* Frameworks */,
+				7DAC6038244ECCD400F580E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KhataBook;
+			productName = KhataBook;
+			productReference = 7DAC603A244ECCD400F580E7 /* KhataBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DAC6032244ECCD400F580E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "POORAN SUTHAR";
+				TargetAttributes = {
+					7DAC6039244ECCD400F580E7 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 7DAC6035244ECCD400F580E7 /* Build configuration list for PBXProject "KhataBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DAC6031244ECCD400F580E7;
+			productRefGroup = 7DAC603B244ECCD400F580E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DAC6039244ECCD400F580E7 /* KhataBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DAC6038244ECCD400F580E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAC605F244F079A00F580E7 /* PaymentsectionView.xib in Resources */,
+				7D9C10D4245DA7BD001A22A9 /* UserDefault.plist in Resources */,
+				7DAC604D244ECCD600F580E7 /* LaunchScreen.storyboard in Resources */,
+				7DAC604A244ECCD600F580E7 /* Assets.xcassets in Resources */,
+				7DB3062F24530C53002B4D40 /* Balancedetails.xib in Resources */,
+				7DD8396C2452C1D100377C07 /* CountryCode.plist in Resources */,
+				7DAC6045244ECCD400F580E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DAC6036244ECCD400F580E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAC6042244ECCD400F580E7 /* ViewController.swift in Sources */,
+				7DB3063224530CD6002B4D40 /* balancedetailsview.swift in Sources */,
+				7DAC605D244F077E00F580E7 /* PaymentHeaderVIew.swift in Sources */,
+				7D07501E245AA4210065B52F /* TransactionViewController.swift in Sources */,
+				7DAC6057244F05D000F580E7 /* PaymentViewController.swift in Sources */,
+				7D13EDDA245D4A2B0043629C /* HomeViewController.swift in Sources */,
+				7D65B1412456E76D0013E738 /* CoreDataManager.swift in Sources */,
+				7DAC6061244F10C900F580E7 /* CustomerTableViewCell.swift in Sources */,
+				7DB30636245548A3002B4D40 /* PaymentTableViewCell.swift in Sources */,
+				7DAC603E244ECCD400F580E7 /* AppDelegate.swift in Sources */,
+				7DB891CF2450119B0054A710 /* ReportViewController.swift in Sources */,
+				7DAC6055244F05B900F580E7 /* ProfileViewController.swift in Sources */,
+				7D65B1442456F56C0013E738 /* AlertController.swift in Sources */,
+				7DB306382455CCBB002B4D40 /* ProfileTableViewCell.swift in Sources */,
+				7D23E3112450194000E78535 /* AddnewfriendprofileViewController.swift in Sources */,
+				7DB3063424531A95002B4D40 /* PaymentDetailsTableViewCell.swift in Sources */,
+				7DD8396E2452FF4000377C07 /* PaymentdetailViewController.swift in Sources */,
+				7DAC6048244ECCD400F580E7 /* KhataBook.xcdatamodeld in Sources */,
+				7D13EDD8245D476E0043629C /* MyCustomView.swift in Sources */,
+				7D23E313245059A100E78535 /* ReportTableViewCell.swift in Sources */,
+				7D156E91245E7DBF0002B5EE /* EditBusinessAndYourNameViewController.swift in Sources */,
+				7DAC6040244ECCD400F580E7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DAC6043244ECCD400F580E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DAC6044244ECCD400F580E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DAC604B244ECCD600F580E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DAC604C244ECCD600F580E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DAC604F244ECCD600F580E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DAC6050244ECCD600F580E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DAC6052244ECCD600F580E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KhataBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.KhataBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DAC6053244ECCD600F580E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KhataBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.KhataBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DAC6035244ECCD400F580E7 /* Build configuration list for PBXProject "KhataBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAC604F244ECCD600F580E7 /* Debug */,
+				7DAC6050244ECCD600F580E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DAC6051244ECCD600F580E7 /* Build configuration list for PBXNativeTarget "KhataBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAC6052244ECCD600F580E7 /* Debug */,
+				7DAC6053244ECCD600F580E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7DAC6046244ECCD400F580E7 /* KhataBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7DAC6047244ECCD400F580E7 /* KhataBook.xcdatamodel */,
+			);
+			currentVersion = 7DAC6047244ECCD400F580E7 /* KhataBook.xcdatamodel */;
+			path = KhataBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7DAC6032244ECCD400F580E7 /* Project object */;
+}
